@@ -114,7 +114,7 @@ plot_network <- function(param, result) {
     guides(size = "none") +
     theme(legend.position = "bottom")
   
-  ggsave("plot2.png", p, height = 45 , width = 80, units = "mm", scale = 3)
+  # ggsave("plot_network.png", p, height = 45 , width = 80, units = "mm", scale = 3)
   
   return(p)
 }
