@@ -30,7 +30,7 @@ ui <- fluidPage(
   # Application title
   titlePanel("FEISTY"),
   
-  # Sidebar with a slider input for number of bins 
+  # Sidebar with on/off switch for species and a slider input for number of bins 
   sidebarLayout(
     
     sidebarPanel(
@@ -38,16 +38,16 @@ ui <- fluidPage(
       
       checkboxInput(inputId = "small_pel",
                     label = "Small pelagics", T),
-
-      checkboxInput("meso_pel", "Mesopelagic fish", T),
-      
-      checkboxInput("large_pel", "Large pelagics", T),
-      
-      checkboxInput("demersals", "Demersals fish", T),
-
-      checkboxInput("squid", "Squid", T),
-
-      checkboxInput("bathypelagics", "Bathypelagic fish", T),
+      checkboxInput(inputId = "meso_pel", 
+                    label = "Mesopelagic fish", T),
+      checkboxInput(inputId = "large_pel", 
+                    label = "Large pelagics", T),
+      checkboxInput(inputId = "demersals", 
+                    label = "Demersals fish", T),
+      checkboxInput(inputId = "squid", 
+                    label = "Squid", T),
+      checkboxInput(inputId = "bathypelagics", 
+                    label = "Bathypelagic fish", T),
 
       h4("Variables"),
       

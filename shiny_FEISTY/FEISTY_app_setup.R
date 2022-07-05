@@ -33,18 +33,6 @@ source("R/plot_weight.R")
 source("R/plot_network.R") 
 source("R/plotdiet.R")
 
-# # Define Palette colors: 
-# my_palette <- c("Res" = "#F57C0D",
-#                 "SZoo" = "#FFEE58",
-#                 "BZoo" = "#F9A825",
-#                 "Bent" = "#795548",
-#                 "Spel" = "#BBDEFB",
-#                 "Meso" = "#9E9E9E",
-#                 "Lpel" = "#2196F3",
-#                 "Dem" = "#000000", 
-#                 "Squid" = "#AD1457", 
-#                 "Bpel" =  "#0D47A1")
-
 
 #                                          END OF SCRIPT
 #############################################################################################################
