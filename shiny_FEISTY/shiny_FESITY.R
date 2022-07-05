@@ -19,12 +19,8 @@
 
 
 #####################################################################
-# Set working directory:
-setwd("C:/Users/danot/My Drive/_postdoc/projects/FEISTY/R_FEISTY/")
-
-
 # Source function:
-source("FEISTY_app_setup.R") 
+source("shiny_FEISTY/FEISTY_app_setup.R") 
 
 #
 # Define UI

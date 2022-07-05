@@ -21,9 +21,9 @@
 PlotEcosystem <- function(depth, prod, nstage) {
   
   # Load functions:
-  source("baseparameters.R") 
-  source("baseparam_depth.R") 
-  source("feisty.R") 
+  source("R/baseparameters.R") 
+  source("R/baseparam_depth.R") 
+  source("R/feisty.R") 
  
   # Set parameters: 
   param <- baseparameters(nstage)

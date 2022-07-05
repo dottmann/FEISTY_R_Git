@@ -27,11 +27,11 @@ require(patchwork)
 library(shiny)
 
 # Load functions:
-source("shiny_parameters.R")  
-source("feisty.R") 
-source("plot_weight.R") 
-source("plot_network.R") 
-source("plotdiet.R")
+source("shiny_FEISTY/shiny_parameters.R")  
+source("R/feisty.R") 
+source("R/plot_weight.R") 
+source("R/plot_network.R") 
+source("R/plotdiet.R")
 
 # # Define Palette colors: 
 # my_palette <- c("Res" = "#F57C0D",

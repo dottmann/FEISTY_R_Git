@@ -22,7 +22,7 @@
 baseparam_depth <- function(param, depth) {
   
   # Load functions:
-  source("calcpreference.R") 
+  source("R/calcpreference.R") 
   
   #
   # Habitat and interactions: -----------------------------------------------

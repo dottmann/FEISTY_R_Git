@@ -21,9 +21,9 @@
 feisty <- function(param, result) {
   
   # Load functions:
-  source("feisty_deriv.R") 
-  source("calcEncounter.R") 
-  source("calcNu.R") 
+  source("R/feisty_deriv.R") 
+  source("R/calcEncounter.R") 
+  source("R/calcNu.R") 
   
   #
   # Init

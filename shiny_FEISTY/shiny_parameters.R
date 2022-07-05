@@ -25,9 +25,9 @@ shiny_params <- function(depth, prod, nstage, small_pel, meso_pel, large_pel, de
   #
   
   # Load functions:
-  source("baseparameters.R") 
-  source("baseparam_depth.R") 
-  source("feisty_species_setup.R") 
+  source("R/baseparameters.R") 
+  source("R/baseparam_depth.R") 
+  source("R/feisty_species_setup.R") 
   
 
   # parameter for FEISTY 

@@ -21,7 +21,7 @@
 feisty_deriv <- function(t, y, param) {
   
   # Load functions:
-  source("calcEncounter.R") 
+  source("R/calcEncounter.R") 
   
   y[y < 0] <- 0
   R <- y[param$ixR]

@@ -22,9 +22,6 @@
 # Clear environment:
 rm(list = ls())
 
-# Set working directory:
-setwd("C:/Users/danot/My Drive/_postdoc/projects/FEISTY/R_FEISTY/")
-
 # Load libraries:
 require(deSolve)
 require(tidyverse)
@@ -33,14 +30,14 @@ require(scales)
 require(patchwork)
 
 # Load functions:
-source("baseparameters.R") 
-source("baseparam_depth.R") 
-source("feisty.R") 
-source("feisty_species_setup.R") 
-source("plot_weight.R") 
-source("plotdiet.R")
-source("PlotEcosystem.R") 
-source("plot_network.R") 
+source("R/baseparameters.R") 
+source("R/baseparam_depth.R") 
+source("R/feisty.R") 
+source("R/feisty_species_setup.R") 
+source("R/plot_weight.R") 
+source("R/plotdiet.R")
+source("R/PlotEcosystem.R") 
+source("R/plot_network.R") 
 
 
 # Simple Run:

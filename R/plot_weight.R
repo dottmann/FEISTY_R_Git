@@ -21,7 +21,7 @@
 plotFeistyf <- function(param, result) {
   
   # Load functions:
-  source("calcEncounter.R") 
+  source("R/calcEncounter.R") 
   
   # Define objects:
   y <- result$y
