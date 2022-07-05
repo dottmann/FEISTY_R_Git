@@ -1,5 +1,5 @@
 
-## Script name: FEISTY app setup
+## Script name: shiny FEISTY
 ##
 ##
 ## Authors: Daniel Ottmann 
@@ -13,7 +13,7 @@
 ## Readme:
 ##
 ## This script runs a shiny app for FEISTY
-## This R version of FEISTY is build on earlier version of the model written in MATLAB https://github.com/Dvandenderen/Fish_foodwebs 
+## This R version of FEISTY is build on an earlier version of the model written in MATLAB https://github.com/Dvandenderen/Fish_foodwebs 
 ##
 ## ---------------------------
 
@@ -35,7 +35,6 @@ ui <- fluidPage(
     
     sidebarPanel(
       h4("Functional groups"),
-      
       checkboxInput(inputId = "small_pel",
                     label = "Small pelagics", T),
       checkboxInput(inputId = "meso_pel", 
@@ -50,7 +49,6 @@ ui <- fluidPage(
                     label = "Bathypelagic fish", T),
 
       h4("Variables"),
-      
       sliderInput(inputId = "prod",
                   label = "Productivity (1/yr):",
                   min = 0,
